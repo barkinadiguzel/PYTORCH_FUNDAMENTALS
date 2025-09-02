@@ -21,4 +21,4 @@ Random seeds → torch.manual_seed()
 GPU / CUDA → .cuda(), torch.cuda.is_available(), .cpu()
 
 💡 Feedback welcome!
-If you spot mistakes or missing explanations, I’d love to hear from you: your.email@gmail.com
+If you spot mistakes or missing explanations, I’d love to hear from you: barkin.adiguzel@gmail.com
