@@ -1,24 +1,24 @@
-#PyTorch Fundamentals 🚀
+# PyTorch Fundamentals 🚀
 
-A quick guide to PyTorch basics: tensors, math ops, reshaping, NumPy interop, seeds & GPU usage.
+A quick beginner-friendly guide to PyTorch basics: tensors, math operations, reshaping, NumPy interoperability, random seeds, and GPU usage.
 
-Scalars / Vectors / Matrices / Tensors → torch.tensor()
+## Key Concepts
 
-Create tensors → torch.rand(), torch.zeros(), torch.ones(), torch.arange()
+- **Scalars / Vectors / Matrices / Tensors** → `torch.tensor()`  
+- **Create tensors** → `torch.rand()`, `torch.zeros()`, `torch.ones()`, `torch.arange()`  
+- **Data types & devices** → `.type()`, `requires_grad=True`, `.to(device)`  
+- **Math operations** → `+`, `-`, `*`, `/`, `torch.matmul()`  
+- **Matrix operations** → `.mm()`, `.T`, `.reshape()`, `.view()`, `torch.stack()`  
+- **Dimension operations** → `.squeeze()`, `.unsqueeze()`, `.permute()`  
+- **NumPy ↔ PyTorch** → `torch.from_numpy()`, `.numpy()`  
+- **Random seeds** → `torch.manual_seed()`  
+- **GPU / CUDA** → `.cuda()`, `torch.cuda.is_available()`, `.cpu()`  
 
-Data types & devices → .type(), requires_grad=True, .to(device)
+## Quick Start
 
-Math ops → +, -, *, /, torch.matmul()
+```bash
+pip install torch torchvision torchaudio
+```
+## Feedback
 
-Matrix ops → .mm(), .T, .reshape(), .view(), torch.stack()
-
-Dimension ops → .squeeze(), .unsqueeze(), .permute()
-
-NumPy ↔ PyTorch → torch.from_numpy(), .numpy()
-
-Random seeds → torch.manual_seed()
-
-GPU / CUDA → .cuda(), torch.cuda.is_available(), .cpu()
-
-💡 Feedback welcome!
-If you spot mistakes or missing explanations, I’d love to hear from you: barkin.adiguzel@gmail.com
+For feedback or questions, contact: [barkin.adiguzel@gmail.com](mailto:barkin.adiguzel@gmail.com)
