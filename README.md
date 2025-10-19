@@ -1,24 +1,27 @@
-# PyTorch Fundamentals 🚀
+# ⚡ PyTorch Fundamentals Repo
 
-A quick beginner-friendly guide to PyTorch basics: tensors, math operations, reshaping, NumPy interoperability, random seeds, and GPU usage.
+This repository is designed for beginners who want to learn PyTorch from scratch.
+You will learn basic concepts, tensor operations, GPU usage, and simple models step by step with examples.
 
-## Key Concepts
-
-- **Scalars / Vectors / Matrices / Tensors** → `torch.tensor()`  
-- **Create tensors** → `torch.rand()`, `torch.zeros()`, `torch.ones()`, `torch.arange()`  
-- **Data types & devices** → `.type()`, `requires_grad=True`, `.to(device)`  
-- **Math operations** → `+`, `-`, `*`, `/`, `torch.matmul()`  
-- **Matrix operations** → `.mm()`, `.T`, `.reshape()`, `.view()`, `torch.stack()`  
-- **Dimension operations** → `.squeeze()`, `.unsqueeze()`, `.permute()`  
-- **NumPy ↔ PyTorch** → `torch.from_numpy()`, `.numpy()`  
-- **Random seeds** → `torch.manual_seed()`  
-- **GPU / CUDA** → `.cuda()`, `torch.cuda.is_available()`, `.cpu()`  
-
-## Quick Start
-
-```bash
-pip install torch torchvision torchaudio
+---
+## 🧱 Project Structure
 ```
-## Feedback
-
+fundamental/
+├─ 01_scalars_vectors_tensors.py      # Introduction to scalars, vectors, matrices, and tensors
+├─ 02_tensor_creation.py              # Methods to create tensors (zeros, ones, random, arange)
+├─ 03_tensor_math_ops.py              # Basic math operations on tensors
+├─ 04_matrix_ops.py                   # Matrix and dimension operations (reshape, stack, squeeze, etc.)
+├─ 05_GPU_CUDA.py                     # GPU/CUDA usage and moving tensors to GPU and Random Seeds
+models/
+├─ 01_LinearRegressionModel.py       # Simple linear regression example
+LICENSE
+README.md
+```
+---
+# 📦 Install requirements:
+```bash
+pip install -r requirements.txt
+```
+---
+## 📬Feedback
 For feedback or questions, contact: [barkin.adiguzel@gmail.com](mailto:barkin.adiguzel@gmail.com)
