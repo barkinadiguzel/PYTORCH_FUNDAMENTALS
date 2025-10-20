@@ -13,7 +13,8 @@ fundamental/
 ├─ 04_matrix_ops.py                   # Matrix and dimension operations (reshape, stack, squeeze, etc.)
 ├─ 05_GPU_CUDA.py                     # GPU/CUDA usage and moving tensors to GPU and Random Seeds
 models/
-├─ 01_LinearRegressionModel.py       # Simple linear regression example
+├─ 01_LinearRegressionModel.py        # Simple linear regression example
+├─ 02_model_basics.py                 # For understand the basics of a model
 LICENSE
 README.md
 ```
